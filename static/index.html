@@ -61,18 +61,44 @@
 			<p>hobbies: travelling, sleeping, watching movies/ tv series, reading books </p> 
 			
 		</div>
+<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
 
-		<h4> </h4>
-		<!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
-		<!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
-		<!-- a are anchors, also known as hyperlinks. Use the href attribute to tell the browser where to go when the user clicks -->
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+	<body>
+
+<div class="gallery">
+  <a target="_blank" href="img_5terre.jpg">
+   <img src="https://i.redd.it/mhggjumw7hk01.jpg" alt="Lorem Pixel image" width = "650" height = "540">
+  </a>
+  <div class="desc">doggo</div>
+</div>
+
 		<div id="project1">
 			<p>  </p>
 				<img src="https://i.redd.it/mhggjumw7hk01.jpg" alt="Lorem Pixel image" width = "550" height = "550">	
 				<p>A Sleeping doggo </p> 
 				<img src="https://i.barkpost.com/wp-content/uploads/2014/12/dog-awkwardly-sleeping-on-couch.jpg?q=70&fit=crop&crop=entropy&w=808&h=500" alt="Lorem Pixel image" width = "550" height = "550"> 
 		</div>
-		<div class = "content" id = "Favorites">
+		<div class = "content" id = "favorites">
 			<h2> Favorites </h2>
 			<a href = "#top" class = "bar-item button hide-small">TOP</a>
 			<p> Ben&Ben and Ransom Collective</p>	
@@ -107,7 +133,6 @@ div.desc {
   text-align: center;
 }
 </style>
-</head>
 <body>
 
 <div class="gallery">
